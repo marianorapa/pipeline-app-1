@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: demo-app
-          image: marianrap/pipeline-app-1:219add1
+          image: marianrap/pipeline-app-1:4df8744
           ports:
             - containerPort: 5000
