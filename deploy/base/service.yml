@@ -9,5 +9,5 @@ spec:
     - protocol: TCP
       port: 5000
       targetPort: 5000
-      nodePort: 35000
+      nodePort: 32500
   type: NodePort  # or NodePort if no cloud LB available
