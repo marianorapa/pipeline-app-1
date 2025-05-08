@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: demo-app
-          image: marianrap/pipeline-app-1:latest  # <- updated by GitHub Actions
+          image: marianrap/pipeline-app-1:219add1
           ports:
             - containerPort: 5000
