@@ -9,4 +9,5 @@ spec:
     - protocol: TCP
       port: 5000
       targetPort: 5000
-  type: LoadBalancer  # or NodePort if no cloud LB available
+      nodePort: 35000
+  type: NodePort  # or NodePort if no cloud LB available
